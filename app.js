@@ -1,5 +1,5 @@
 
-const tunesURL = "https://raw.githubusercontent.com/sigrunh21/sigrunh21/main/tunes.html";
+const tunesURL = "http://localhost:3000/";
 let isRecording = false;
 let recordedNotes = [];
 
