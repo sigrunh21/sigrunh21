@@ -1,6 +1,5 @@
-// Assuming the use of Tone.js and Axios as included in your HTML via script tags
 
-const tunesURL = "http://localhost:3000/api/v1/tunes";
+const tunesURL = "https://raw.githubusercontent.com/sigrunh21/sigrunh21/main/tunes.html";
 let isRecording = false;
 let recordedNotes = [];
 
