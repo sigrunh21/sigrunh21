@@ -9,16 +9,33 @@
     <script src="https://cdn.jsdelivr.net/npm/tone@14"></script>
 </head>
 <body>
-    <div id="piano">
-        <!-- Piano keys go here -->
+    <div id="keyboardDiv">
+        <button id="C4">C4</button>
+        <button id="C#4">C#4</button>
+        <button id="D4">D4</button>
+        <button id="D#4">D#4</button>
+        <button id="E4">E4</button>
+        <button id="F4">F4</button>
+        <button id="F#4">F#4</button>
+        <button id="G4">G4</button>
+        <button id="G#4">G#4</button>
+        <button id="A4">A4</button>
+        <button id="Bb4">Bb4</button>
+        <button id="B4">B4</button>
+        <button id="C5">C5</button>
+        <button id="C#5">C#5</button>
+        <button id="D5">D5</button>
+        <button id="D#5">D#5</button>
+        <button id="E5">E5</button>
+        <!-- Add more keys as necessary -->
     </div>
     <select id="tunesDrop">
-        <!-- Tunes will be populated here -->
+        <!-- Tunes will be populated by the app.js -->
     </select>
-    <button id="playTune">Play Tune</button>
-    <input type="text" id="tuneName" placeholder="Enter tune name for recording">
-    <button id="recordTune">Record</button>
-    <button id="stopRecord" disabled>Stop</button>
+    <button id="tunebtn">Play Tune</button>
+    <input type="text" id="recordName" placeholder="Enter tune name for recording">
+    <button id="recordbtn">Record</button>
+    <button id="stopbtn" disabled>Stop</button>
 
     <script src="app.js"></script>
 </body>
